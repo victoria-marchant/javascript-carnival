@@ -17,6 +17,7 @@ let randCell = cells[Math.floor(Math.random() * cells.length)]
 console.log(randCell)
 
 const scoreCard = document.getElementById('score')
+scoreCard.innerHTML = "Na na na-na na! You can't catch me!!"
 // let button = document.getElementById('button')
 let score = 0
 // timeup = false (button and timer were part of time out fx I was trying to generate but no dice)
