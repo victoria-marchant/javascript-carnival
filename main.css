@@ -10,6 +10,13 @@ h1 {
 	text-align: center;
 }
 
+h2 { 
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 3em;
+	text-align: center;
+}
+
 table {
   margin-right: center;
   margin-left: center;
@@ -59,4 +66,10 @@ td {
 
 .shoes {
   z-index: 1
+}
+
+/*change mole image styling so that the image fits within cells at their current dimensions*/
+#mole {
+  height: 72px;
+  width: 72px;
 }
